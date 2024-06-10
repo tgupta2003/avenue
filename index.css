@@ -125,6 +125,28 @@ body, html{
 
 }
 
+
+
+.catch-phrase{
+  font-family: outfit;
+  font-weight: 200;
+  margin-top: -350px;
+  text-align: center;
+  font-size: 40px;
+  color: #ede0d4;
+  
+}
+
+.cover{
+  margin-bottom: 300px;
+  
+}
+
+
+
+
+
+
 .heading{
 
   font-size: 35px;
@@ -321,6 +343,137 @@ body, html{
 
 
 
+/* Media query for screen size 360x800 */
+@media only screen and (max-width: 360px) and (max-height: 800px) {
+
+  /* Adjust header styles */
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust main image */
+  .main-img {
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 12px;
+    margin-top: -90px;
+  }
+
+  .cover {
+    margin-bottom: 80px;
+  }
+
+  /* Adjust bar styles */
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Adjust mentor program styles */
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+    /* width: 80%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 10%;
+    margin-left: 0; */
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 30%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+}
+
 
 /*Media Queries*/
 
@@ -328,6 +481,8 @@ body, html{
 
 
 
+
+/*
 
 @media only screen and (max-width: 1511px){
 
@@ -369,7 +524,7 @@ body, html{
 
 
 
-/*#2*/
+
 @media only screen and (min-width: 1239px) and (max-width: 1317px){
 
   .inside-text2{
@@ -447,14 +602,14 @@ body, html{
 
     .mentor-img{
       padding-top: 90px;
-/*      padding-left: 205px;*/
+
       width: 90.5%;
       padding-bottom: 90px;
     }
 
 
     .mentee-img{
-/*      padding-left: 200px;*/
+
       width: 93%;
     }
 
@@ -583,9 +738,7 @@ body, html{
 }
 
 
-
-
-
+*/
 
 
 
