@@ -342,15 +342,159 @@ body, html{
 
 
 /* -------------- */
+/* MEDIA QUERIES */
 
+/* start with under 390px */
+
+  @media only screen and (max-width: 390px) {
+
+
+    .header {
+      height: 60px;
+    }
+  
+    .header_buttons {
+      flex-direction: row;
+      align-items:center;
+      margin-top: 0;
+      padding-right: 30px;
+  
+  
+    }
+  
+    .logo{
+      display: none;
+    }
+  
+    .programs_container, .gallery_container, .contact_container, 
+    .about_container, .home_container {
+      margin-right: 5px;
+      margin-top: 5px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+  
+  
+    .main-img {
+      margin-top: 10%;
+      width: 100%;
+      height: auto;
+    }
+  
+    .catch-phrase {
+      font-size: 14px;
+      margin-top: -96px;
+    }
+  
+    .cover {
+      margin-bottom: 80px;
+    }
+  
+    .bar {
+      height: auto;
+      padding: 20px;
+      box-sizing: border-box;
+      border-width: 2px;
+    }
+  
+    .heading {
+      font-size: 20px;
+      text-align: center;
+      margin-top: -55px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+  
+    .mentorship, .mentorship2 {
+      margin-left: 10%;
+      width: 80%;
+      height: auto;
+    }
+  
+    .mentor-mentee {
+      display: none;
+     
+    }
+  
+    .mentor-program-div{
+      display: none;
+   
+    }
+  
+    .button {
+      font-size: 18px;
+  
+      padding: 10px 20px;
+      margin-left: 30%;
+     
+    }
+  
+  
+    .button-cont {
+      margin-top: 20px;
+      padding-bottom: 80px;
+    }
+  
+    .pov {
+      font-size: 25px;
+      margin-top: 20%;
+      padding-top: 0px;
+      padding-bottom: 30px;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .nyu-div {
+      margin-top: -100px;
+      padding-bottom: 50px;
+    }
+  
+    .ave-picture {
+      margin-top: -100px;
+      margin-left: 10%;
+      width: 80%;
+      height: auto;
+    }
+  
+    .graphic {
+      margin-top: -30px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .text {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 18px;
+    }
+  
+    .end-graphic {
+      width: 100%;
+      height: auto;
+    }
+  
+  
+    .line{
+      display:block; 
+      height: 3px;
+      color: black;
+      
+    }
+  }
+  
+  
+  
 
 
 
 /* PHONES */
 /* (max-width: 390px) and (max-height: 844px) */
-@media only screen and (max-width: 390px) {
+@media only screen and (min-width: 390px) and (max-width: 406px) {
 
-  /* Adjust header styles */
+
   .header {
     height: 60px;
   }
@@ -359,6 +503,8 @@ body, html{
     flex-direction: row;
     align-items:center;
     margin-top: 0;
+    padding-right: 30px;
+
 
   }
 
@@ -374,7 +520,7 @@ body, html{
     margin-bottom: 10px;
   }
 
-  /* Adjust main image */
+
   .main-img {
     margin-top: 10%;
     width: 100%;
@@ -382,15 +528,14 @@ body, html{
   }
 
   .catch-phrase {
-    font-size: 12px;
-    margin-top: -90px;
+    font-size: 14px;
+    margin-top: -96px;
   }
 
   .cover {
     margin-bottom: 80px;
   }
 
-  /* Adjust bar styles */
   .bar {
     height: auto;
     padding: 20px;
@@ -407,7 +552,7 @@ body, html{
     padding-right: 20px;
   }
 
-  /* Adjust mentor program styles */
+
   .mentorship, .mentorship2 {
     margin-left: 10%;
     width: 80%;
@@ -416,158 +561,7 @@ body, html{
 
   .mentor-mentee {
     display: none;
-    /* width: 80%;
-    height: auto;
-    padding-top: 20px;
-    padding-left: 10%;
-    margin-left: 0; */
-  }
-
-  .mentor-program-div{
-    display: none;
- 
-  }
-
-  .button {
-    font-size: 18px;
-
-    padding: 10px 20px;
-    margin-left: 20%;
    
-  }
-
-
-  .button-cont {
-    margin-top: 20px;
-    padding-bottom: 80px;
-  }
-
-  .pov {
-    font-size: 25px;
-    padding-top: 0px;
-    padding-bottom: 30px;
-  }
-
-  .nyu-div {
-    margin-top: -100px;
-    padding-bottom: 50px;
-  }
-
-  .ave-picture {
-    margin-top: -100px;
-    margin-left: 10%;
-    width: 80%;
-    height: auto;
-  }
-
-  .graphic {
-    margin-top: -30px;
-    width: 100%;
-    height: auto;
-  }
-
-  .text {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 18px;
-  }
-
-  .end-graphic {
-    width: 100%;
-    height: auto;
-  }
-
-
-  .line{
-    display:block; 
-    height: 3px;
-    color: black;
-    
-  }
-}
-
-
-
-/* PHONES - LARGER */
-/* Media query for screen size 360x800 */
-/* (max-width: 425px) and (max-height: 812px) */
-@media only screen and (max-width: 425px)  {
-
-  /* Adjust header styles */
-  .header {
-    height: 60px;
-
-
-  }
-
-  .header_buttons {
-    flex-direction: row;
-    align-items:center;
-    margin-top: 0;
-    padding-right: 33px;
-  
-
-  }
-
-  .logo{
-    display: none;
-  }
-
-  .programs_container, .gallery_container, .contact_container, 
-  .about_container, .home_container {
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-  }
-
-  /* Adjust main image */
-  .main-img {
-    margin-top: 10%;
-    width: 100%;
-    height: auto;
-  }
-
-  .catch-phrase {
-    font-size: 12px;
-    margin-top: -90px;
-  }
-
-  .cover {
-    margin-bottom: 80px;
-  }
-
-  /* Adjust bar styles */
-  .bar {
-    height: auto;
-    padding: 20px;
-    box-sizing: border-box;
-    border-width: 2px;
-  }
-
-  .heading {
-    font-size: 20px;
-    text-align: center;
-    margin-top: -55px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  /* Adjust mentor program styles */
-  .mentorship, .mentorship2 {
-    margin-left: 10%;
-    width: 80%;
-    height: auto;
-  }
-
-  .mentor-mentee {
-    display: none;
-    /* width: 80%;
-    height: auto;
-    padding-top: 20px;
-    padding-left: 10%;
-    margin-left: 0; */
   }
 
   .mentor-program-div{
@@ -590,9 +584,13 @@ body, html{
   }
 
   .pov {
-    font-size: 30px;
-    padding-bottom: 40px;
+    font-size: 25px;
+    margin-top: 20%;
+    padding-top: 0px;
+    padding-bottom: 30px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .nyu-div {
@@ -631,32 +629,26 @@ body, html{
     color: black;
     
   }
-
 }
 
 
 
 
+/* IPHONES XR + */
+/* max-width: 420 */
+/*  */
+@media only screen and (min-width: 406px) and (max-width: 420px) {
 
 
-
-/* PHONES - LARGER */
-/* (max-width: 1024px) and (max-height: 1366px) */
-@media only screen and (max-width: 1024px) {
-
-  /* Adjust header styles */
   .header {
     height: 60px;
-
-
   }
 
   .header_buttons {
     flex-direction: row;
     align-items:center;
     margin-top: 0;
-    padding-right: 43px;
-  
+    padding-right: 35px;
 
   }
 
@@ -672,7 +664,7 @@ body, html{
     margin-bottom: 10px;
   }
 
-  /* Adjust main image */
+
   .main-img {
     margin-top: 10%;
     width: 100%;
@@ -681,14 +673,13 @@ body, html{
 
   .catch-phrase {
     font-size: 13px;
-    margin-top: -100px;
+    margin-top: -96px;
   }
 
   .cover {
     margin-bottom: 80px;
   }
 
-  /* Adjust bar styles */
   .bar {
     height: auto;
     padding: 20px;
@@ -705,7 +696,7 @@ body, html{
     padding-right: 20px;
   }
 
-  /* Adjust mentor program styles */
+
   .mentorship, .mentorship2 {
     margin-left: 10%;
     width: 80%;
@@ -714,11 +705,7 @@ body, html{
 
   .mentor-mentee {
     display: none;
-    /* width: 80%;
-    height: auto;
-    padding-top: 20px;
-    padding-left: 10%;
-    margin-left: 0; */
+   
   }
 
   .mentor-program-div{
@@ -730,7 +717,7 @@ body, html{
     font-size: 18px;
 
     padding: 10px 20px;
-    margin-left: 34%;
+    margin-left: 32%;
    
   }
 
@@ -740,17 +727,14 @@ body, html{
     padding-bottom: 80px;
   }
 
-
-  .line{
-    display:block; 
-    height: 3px;
-    color: black;
-    
-  }
   .pov {
-    font-size: 30px;
-    padding-bottom: 40px;
+    font-size: 25px;
+    margin-top: 20%;
+    padding-top: 0px;
+    padding-bottom: 30px;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .nyu-div {
@@ -781,314 +765,1747 @@ body, html{
     width: 100%;
     height: auto;
   }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
 }
 
 
+/* IPHONES 14 max pros + */
+/* max-width: 430 */
+/*  */
+@media only screen and (min-width: 420px) and (max-width: 430px) {
 
+  .header {
+    height: 60px;
+  }
 
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 40px;
 
+  }
 
+  .logo{
+    display: none;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Media Queries*/
-
-/*text in mentee/mentor*/
-
-
-
-
-/*
-
-@media only screen and (max-width: 1511px){
-
-  .main-img{
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
     margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
 
-}
 
-
-
-@media only screen and (max-width: 1427px){
-
-  .inside-text2{
-
-    margin-top: -450px;
-
-    font-size: 24px;
-
+  .main-img {
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
   }
 
-  .inside-text1{
-
-    margin-top: -430px;
-
-    font-size: 24px;
-
+  .catch-phrase {
+    font-size: 13px;
+    margin-top: -100px;
   }
 
-  .black-bar{
- 
-  height: 47vw;
+  .cover {
+    margin-bottom: 80px;
+  }
 
-}
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
 
-
-
-}
-
-
-
-
-@media only screen and (min-width: 1239px) and (max-width: 1317px){
-
-  .inside-text2{
-
-    margin-top: -410px;
-
+  .heading {
     font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 33%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 20%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
+}
+
+
+
+
+
+
+
+/* FILLER /
+/* max-width: 500 */
+/*  */
+@media only screen and (min-width: 430px) and (max-width: 500px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 12%;
 
   }
 
-  .inside-text1{
+  .logo{
+    display: none;
+  }
 
-    margin-top: -380px;
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
 
+
+  .main-img {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 15px;
+    margin-top: -115px;
+    padding-bottom: 50px;
+  }
+
+  .cover {
+    margin-bottom: 80px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
     font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 33%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
+}
+
+
+
+/* FILLER /
+/* max-width: 500 */
+/*  */
+@media only screen and (min-width: 500px) and (max-width: 570px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 18%;
 
   }
 
-  .black-bar{
- 
-  height: 55vw;
+  .logo{
+    display: none;
+  }
 
-}
-
-  
-
-
-
-
-}
-
-
-@media only screen and (min-width: 1318px) and (max-width: 1238px){
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
 
 
-  .inside-text2, .inside-text1{
+  .main-img {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
 
-    margin-top: -400px;
+  .catch-phrase {
+    font-size: 15px;
+    margin-top: -125px;
+    padding-bottom: 50px;
+  }
 
+  .cover {
+    margin-bottom: 80px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
     font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 35%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
+}
+
+
+
+/* FILLER /
+/* max-width: 600 */
+/*  */
+@media only screen and (min-width: 570px) and (max-width: 600px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 20%;
 
   }
 
-  .mentee-img, .mentor-img{
-
-    width: 90%;
-
-  }
-
-  .black-bar{
- 
-  height: 55vw;
-
-}
-
-
- 
-
-
-
-}
-
-@media only screen and (max-width: 1239px){
-
-    .m-m{
-       flex-direction: column;
-       padding-left: 130px;
-     
-    }
-
-    .mentor, .mentee{
-      width: 80%;
-    }
-
-
-    .mentor-img{
-      padding-top: 90px;
-
-      width: 90.5%;
-      padding-bottom: 90px;
-    }
-
-
-    .mentee-img{
-
-      width: 93%;
-    }
-
-    .end-graphic{
-    margin-top: 350px;
-   }
-
-
-
-   .inside-text1{
-
-     margin-top: -630px;
-     font-size: 35px;
-     padding-left: 30px;
-
-   }
-
-   .inside-text2{
-
-     margin-top: -710px;
-     font-size: 35px;
-
-
-   }
-
-    .black-bar{
- 
-    height: 55vw;
-
-   }
-
-
-  
-
-
-
-}
-
-
-
-
-
-
-@media only screen and (max-width: 1050px){
-
-
-  .inside-text1{
-
-     margin-top: -500px;
-     font-size: 25px;
-     padding-left: 30px;
-
-   }
-
-   .inside-text2{
-
-     margin-top: -600px;
-     font-size: 25px;
-
-
-   }
-
-   .black-bar{
- 
-    height: 80vw;
-
-   }
-
-
-}
-
-
-@media only screen and (min-width: 528px) and (max-width: 921px){
-
-  body{
-    height: 0;
-  }
-
-  .m-m{
+  .logo{
     display: none;
   }
 
-  .end-graphic{
-    display: none;
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
 
 
-  .black-bar{
+  .main-img {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 16px;
+    margin-top: -150px;
+    padding-bottom: 50px;
+  }
+
+  .cover {
+    margin-bottom: 80px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
  
-  height: 300vw;
+  }
 
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 37%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
 }
 
 
-}
 
-@media only screen and (max-width: 528px){
-  .m-m{
+/* FILLER /
+/* max-width: 670 */
+/*  */
+@media only screen and (min-width: 600px) and (max-width: 670px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 20%;
+
+  }
+
+  .logo{
     display: none;
   }
 
-  .end-graphic{
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 16px;
+    margin-top: -150px;
+    padding-bottom: 50px;
+  }
+
+  .cover {
+    margin-bottom: 80px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
     display: none;
+   
   }
 
-  .bar-text{
-    margin-right: 15px;
-  }
-
-  .heading{
-    margin-right: 95px;
-
-  }
-
-  .black-bar{
+  .mentor-program-div{
+    display: none;
  
-  height: 350vw;
+  }
 
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 37%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
 }
 
-  body{
-    height: 0;
+
+
+/* FILLER /
+/* max-width: 750 */
+/*  */
+@media only screen and (min-width: 670px) and (max-width: 750px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 25%;
 
   }
 
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 18px;
+    margin-top: -160px;
+    padding-bottom: 50px;
+  }
+
+  .cover {
+    margin-bottom: 80px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 37%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
 }
 
 
-*/
+
+
+
+/* IPAD MINI
+/* max-width: 750 */
+/*  */
+@media only screen and (min-width: 750px) and (max-width: 768px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 27%;
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 19px;
+    margin-top: -180px;
+    padding-bottom: 80px;
+  }
+
+  .cover {
+    margin-bottom: 80px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 40%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
+}
+
+
+
+/* FILLER
+/* max-width: 800 */
+/*  */
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 27%;
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 19px;
+    margin-top: -180px;
+    padding-bottom: 80px;
+  }
+
+  .cover {
+    margin-bottom: 80px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 40%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
+}
+
+
+/* IPAD AIR
+/* max-width: 800 */
+/*  */
+@media only screen and (min-width: 800px) and (max-width: 850px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 28%;
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 20px;
+    margin-top: -190px;
+    padding-bottom: 80px;
+  }
+
+  .cover {
+    margin-bottom: 80px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 25px;
+    text-align: center;
+    margin-top: -65px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 42%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
+}
+
+
+/* SURFACE PRO
+/* max-width: 912 */
+/*  */
+@media only screen and (min-width: 850px) and (max-width: 912px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 29%;
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 20px;
+    margin-top: -220px;
+    padding-bottom: 80px;
+  }
+
+  .cover {
+    margin-bottom: 120px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 42%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
+}
 
 
 
 
+/* IPAD PRO
+/* max-width: 1024 */
+/*  */
+@media only screen and (min-width: 912px) and (max-width: 1024px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 34%;
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 30px;
+    margin-top: -250px;
+    padding-bottom: 80px;
+  }
+
+  .cover {
+    margin-bottom: 120px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 30px;
+    text-align: center;
+    margin-top: -90px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 42%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
+}
 
 
 
+/* TO THE END
+/* max-width: 1312 */
+/*  */
+@media only screen and (min-width: 1024px) and (max-width: 1312px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    /* THIS IS WHAT SHIFTS HEADER CONTENTS */
+    padding-right: 34%;
+
+  }
+
+  .logo{
+    margin-top: 3%;
+    
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
 
 
+  .main-img {
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+  }
+
+  .catch-phrase {
+    font-size: 30px;
+    margin-top: -270px;
+    padding-bottom: 125px;
+  }
+
+  .cover {
+    margin-bottom: 120px;
+  }
+
+  .bar {
+    height: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+
+  .heading {
+    font-size: 30px;
+    text-align: center;
+    margin-top: -70px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
 
+  .mentorship, .mentorship2 {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
 
+  .mentor-mentee {
+    display: none;
+   
+  }
+
+  .mentor-program-div{
+    display: none;
+ 
+  }
+
+  .button {
+    font-size: 18px;
+
+    padding: 10px 20px;
+    margin-left: 44%;
+   
+  }
+
+
+  .button-cont {
+    margin-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .pov {
+    font-size: 25px;
+    margin-top: 15%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .nyu-div {
+    margin-top: -100px;
+    padding-bottom: 50px;
+  }
+
+  .ave-picture {
+    margin-top: -100px;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+  }
+
+  .graphic {
+    margin-top: -30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+
+  .end-graphic {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .line{
+    display:block; 
+    height: 3px;
+    color: black;
+    
+  }
+}
 
 
 
