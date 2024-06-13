@@ -171,50 +171,11 @@ body, html{
 
 
 
-
-
-
 /* -------------- */
-
-
-
-
-
-
-/*Media Queries*/
-
-/* 1st is max width 390 */
-
-/* 1. Min width = 390px , max width = 406px
-
-2. Min width = 406px, max width = 420px 
-
-3. Min width = 420px, max width = 430px
-
-4. Min width = 430px, max width = 600px
-
-5. Min width = 600px, max width = 670px
-
-6. Min width = 670px, max width = 750px 
-
-7. Min width = 750px, max width = 768px 
-
-8. Min width = 768px, max width = 800px 
-
-9. Min width = 800px, max width = 850px 
-
-10. Min width = 850px, max width = 912px 
-
-11. Min width = 912px, max width = 1024px 
-
-12. Min width = 1024px, max width = 1312px  */
-
-
-
-
+/* MEDIA QUERIES */
 @media only screen and (max-width: 390px){
 
-  
+   
   .header {
     height: 60px;
   }
@@ -223,7 +184,8 @@ body, html{
     flex-direction: row;
     align-items:center;
     margin-top: 0;
-    padding-right: 27%;
+    padding-right: 30px;
+   
 
 
   }
@@ -242,36 +204,35 @@ body, html{
 
 
   .main-img {
-    margin-top: 10%;
-    width: 200%;
+    margin-top: 8%;
+    width: 100%;
     height: auto;
+    margin-bottom: -15%;
   }
 
 
   .our-story, .our-story2{
-    width: 130vw;
-    height: 22vh;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 15vh;
     padding-bottom: 50px;
 
   }
 
   
-
   .text{
-
-    margin-left: 55%;
+    margin-left: 10%;
     margin-top: -30px;
     font-family: outfit;
-    padding: 0 10px; /* Adjust the padding for better alignment */
-    font-size: 30px; /* Adjust font-size for better readability */
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
     font-weight: 200;
     text-align: center;
     /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
     width: 80%;
-
-
-
   }
+
 
 
 }
@@ -289,7 +250,8 @@ body, html{
     flex-direction: row;
     align-items:center;
     margin-top: 0;
-    padding-right: 27%;
+    padding-right: 30px;
+   
 
 
   }
@@ -308,26 +270,29 @@ body, html{
 
 
   .main-img {
-    margin-top: 10%;
-    width: 200%;
+    margin-top: 8%;
+    width: 100%;
     height: auto;
+    margin-bottom: -15%;
   }
 
 
   .our-story, .our-story2{
-    width: 130vw;
-    height: 22vh;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 15vh;
     padding-bottom: 50px;
 
   }
 
   
   .text{
-    margin-left: 55%;
+    margin-left: 10%;
     margin-top: -30px;
     font-family: outfit;
-    padding: 0 10px; /* Adjust the padding for better alignment */
-    font-size: 30px; /* Adjust font-size for better readability */
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
     font-weight: 200;
     text-align: center;
     /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
@@ -337,13 +302,15 @@ body, html{
 
 
 }
+
+
 
 
 
 /* IPHONE 14+ */
 @media only screen and (min-width: 420px) and (max-width: 430px){
 
-  
+   
   .header {
     height: 60px;
   }
@@ -352,7 +319,8 @@ body, html{
     flex-direction: row;
     align-items:center;
     margin-top: 0;
-    padding-right: 30%;
+    padding-right: 41px;
+   
 
 
   }
@@ -371,26 +339,29 @@ body, html{
 
 
   .main-img {
-    margin-top: 10%;
-    width: 200%;
+    margin-top: 8%;
+    width: 100%;
     height: auto;
+    margin-bottom: -15%;
   }
 
 
   .our-story, .our-story2{
-    width: 130vw;
-    height: 22vh;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 15vh;
     padding-bottom: 50px;
 
   }
 
   
   .text{
-    margin-left: 55%;
+    margin-left: 10%;
     margin-top: -30px;
     font-family: outfit;
-    padding: 0 10px; /* Adjust the padding for better alignment */
-    font-size: 30px; /* Adjust font-size for better readability */
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
     font-weight: 200;
     text-align: center;
     /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
@@ -398,12 +369,13 @@ body, html{
   }
 
 
+
 }
 
 
 
-/* filler */
-@media only screen and (min-width: 430px) and (max-width: 670px){
+/* IPHONE PRO MAX */
+@media only screen and (min-width: 430px) and (max-width: 450px){
 
   
   .header {
@@ -414,7 +386,8 @@ body, html{
     flex-direction: row;
     align-items:center;
     margin-top: 0;
-    padding-right: 33%;
+    padding-right: 43px;
+   
 
 
   }
@@ -433,26 +406,29 @@ body, html{
 
 
   .main-img {
-    margin-top: 10%;
-    width: 200%;
+    margin-top: 8%;
+    width: 100%;
     height: auto;
+    margin-bottom: -15%;
   }
 
 
   .our-story, .our-story2{
-    width: 130vw;
-    height: 22vh;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 15vh;
     padding-bottom: 50px;
 
   }
 
   
   .text{
-    margin-left: 55%;
+    margin-left: 10%;
     margin-top: -30px;
     font-family: outfit;
-    padding: 0 10px; /* Adjust the padding for better alignment */
-    font-size: 30px; /* Adjust font-size for better readability */
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
     font-weight: 200;
     text-align: center;
     /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
@@ -460,13 +436,220 @@ body, html{
   }
 
 
+
 }
 
+
+
+/* IPHONE PRO MAX #2 + filler */
+@media only screen and (min-width: 450px) and (max-width: 530px){
+
+  
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    padding-right: 15%;
+   
+
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 8%;
+    width: 100%;
+    height: auto;
+    margin-bottom: -15%;
+  }
+
+
+  .our-story, .our-story2{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 15vh;
+    padding-bottom: 50px;
+
+  }
+
+  
+  .text{
+    margin-left: 10%;
+    margin-top: -30px;
+    font-family: outfit;
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
+    font-weight: 200;
+    text-align: center;
+    /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
+    width: 80%;
+  }
+
+
+
+}
+
+
+/*filler */
+@media only screen and (min-width: 530px) and (max-width: 660px){
+
+  
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    padding-right: 20%;
+   
+
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 7%;
+    width: 100%;
+    height: auto;
+    margin-bottom: -15%;
+  }
+
+
+  .our-story, .our-story2{
+    padding-left: 5%;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 75vw;
+    height: 18vh;
+    padding-bottom: 50px;
+
+  }
+
+  
+  .text{
+    margin-left: 10%;
+    margin-top: -30px;
+    font-family: outfit;
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
+    font-weight: 200;
+    text-align: center;
+    /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
+    width: 80%;
+  }
+
+
+
+}
+
+
+
+/*filler */
+@media only screen and (min-width: 660px) and (max-width: 670px){
+
+  
+  .header {
+    height: 60px;
+  }
+
+  .header_buttons {
+    flex-direction: row;
+    align-items:center;
+    margin-top: 0;
+    padding-right: 24%;
+   
+
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .programs_container, .gallery_container, .contact_container, 
+  .about_container, .home_container {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .main-img {
+    margin-top: 7%;
+    width: 100%;
+    height: auto;
+    margin-bottom: -15%;
+  }
+
+
+  .our-story, .our-story2{
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 75vw;
+    height: 18vh;
+    padding-bottom: 50px;
+
+  }
+
+  
+  .text{
+    margin-bottom: -3%;
+    margin-left: 10%;
+    margin-top: -30px;
+    font-family: outfit;
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
+    font-weight: 200;
+    text-align: center;
+    /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
+    width: 80%;
+  }
+
+
+
+}
+
+
+
+
+/* PROBLEM! */
 
 /* filler */
 @media only screen and (min-width: 670px) and (max-width: 768px){
 
-  
   .header {
     height: 60px;
   }
@@ -475,7 +658,8 @@ body, html{
     flex-direction: row;
     align-items:center;
     margin-top: 0;
-    padding-right: 36%;
+    padding-right: 24%;
+   
 
 
   }
@@ -494,27 +678,31 @@ body, html{
 
 
   .main-img {
-    margin-top: 10%;
-    width: 200%;
+    margin-top: 7%;
+    width: 100%;
     height: auto;
+    margin-bottom: -15%;
   }
 
 
   .our-story, .our-story2{
-    margin-left: 40%;
-    width: 120vw;
-    height: 25vh;
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 75vw;
+    height: 18vh;
     padding-bottom: 50px;
 
   }
 
   
   .text{
-    margin-left: 56%;
+    margin-bottom: -3%;
+    margin-left: 10%;
     margin-top: -30px;
     font-family: outfit;
-    padding: 0 10px; /* Adjust the padding for better alignment */
-    font-size: 30px; /* Adjust font-size for better readability */
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
     font-weight: 200;
     text-align: center;
     /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
@@ -538,7 +726,8 @@ body, html{
     flex-direction: row;
     align-items:center;
     margin-top: 0;
-    padding-right: 37%;
+    padding-right: 27%;
+   
 
 
   }
@@ -558,35 +747,41 @@ body, html{
 
   .main-img {
     margin-top: 5%;
-    width: 200%;
+    width: 100%;
     height: auto;
+    margin-bottom: -15%;
   }
 
 
   .our-story, .our-story2{
-    margin-left: 40%;
-    width: 120vw;
-    height: 35vh;
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 75vw;
+    height: 20vh;
     padding-bottom: 50px;
 
   }
 
   
   .text{
-    margin-left: 56%;
+    margin-bottom: -5%;
+    margin-left: 10%;
     margin-top: -30px;
     font-family: outfit;
-    padding: 0 10px; /* Adjust the padding for better alignment */
-    font-size: 35px; /* Adjust font-size for better readability */
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
     font-weight: 200;
     text-align: center;
     /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
-    width: 85%;
+    width: 80%;
   }
 
 
 
 }
+
+
 
 
 
@@ -601,7 +796,8 @@ body, html{
     flex-direction: row;
     align-items:center;
     margin-top: 0;
-    padding-right: 28%;
+    padding-right: 27%;
+   
 
 
   }
@@ -620,15 +816,18 @@ body, html{
 
 
   .main-img {
-    margin-top: 2%;
-    width: 200%;
+    margin-top: 5%;
+    width: 100%;
     height: auto;
+    margin-bottom: -15%;
   }
 
 
   .our-story, .our-story2{
+    padding-left: 5%;
+    margin-top: 10%;
     margin-left: 10%;
-    width: 80vw;
+    width: 75vw;
     height: 20vh;
     padding-bottom: 50px;
 
@@ -636,11 +835,12 @@ body, html{
 
   
   .text{
+    margin-bottom: -5%;
     margin-left: 10%;
     margin-top: -30px;
     font-family: outfit;
-    padding: 10 80px; /* Adjust the padding for better alignment */
-    font-size: 35px; /* Adjust font-size for better readability */
+    padding: 0px 10px; /* Adjust the padding for better alignment */
+    font-size: 20px; /* Adjust font-size for better readability */
     font-weight: 200;
     text-align: center;
     /* USE WIDTH TO ADJUST TEXT (NOT MAKE IT TOO SKINNY/WIDE) */
@@ -648,8 +848,9 @@ body, html{
   }
 
 
-
 }
+
+
 
 
 
