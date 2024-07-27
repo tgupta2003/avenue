@@ -284,3 +284,28 @@ body, html{
     color:#293241;
 
 }
+
+/* 1226 */
+
+@media (max-width: 1226px) {
+
+  /*GRID WITH INFO*/
+#outputGrid{
+
+  margin-top: -6%;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: grid;
+  /* 2 projects side by side*/
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2.5vw;
+  padding-bottom: 80px;
+  
+}
+
+  
+  
+
+
+
+}
