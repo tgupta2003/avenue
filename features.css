@@ -26,7 +26,7 @@ body, html{
       height: 80px;
       width: 100%; 
     
-      background-color: #ede0d4;
+      background-color:#dc4d3c;
       display: flex;
       justify-content: space-between;
       z-index: 100;
@@ -38,6 +38,7 @@ body, html{
      border-top: #ede0d4;
      border-left: #ede0d4;
      border-right: #ede0d4;
+     border-bottom: #dc4d3c;
     
     }
     
@@ -70,7 +71,7 @@ body, html{
     /*OTHER LINK*/
     .link2{
       text-decoration: none;
-      color: #dc4d3c; 
+      color: #ede0d4;
       transition: 0.15;
       font-family: outfit;
     
@@ -89,7 +90,7 @@ body, html{
     }
     
     .link:hover{
-      color: #dc4d3c;
+       color: #ede0d4;
     }
 
     .main-img{
@@ -98,36 +99,35 @@ body, html{
     }
 
     h1{
-        font-family: didot;
+        font-family: futura;
         font-weight: 600;
         padding-left: 95px;
-        font-size: 100px;
-        color: rgb(115, 66, 115);
+        font-size: 65px;
+        color:#dc4d3c;
     }
     
 
     .feature{
         padding-top: 0px;
-        font-family: outfit;
-        font-size: 35px;
+        font-family:futura;
+        font-size: 40px;
         font-weight: 400;
         padding-left: 2%;
         padding-right: 5%;
      
         color:#293241;
         margin-left: 85px;
-        letter-spacing: 8px;
+      
     }
 
     /* title for each section */
     .takeaway-h{
         padding-top: 40px;
-        font-family: outfit;
+        font-family: futura;
         padding-left: 95px;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 600;
-        letter-spacing: 8px;
-        color:#dc4d3c;
+        color:black;
 
     }
 
@@ -137,12 +137,11 @@ body, html{
 
 #pageTitle{
     padding-top: 50px;
-    font-family: didot; 
-    font-size: 80px;
+    font-family: futura; 
+    font-size: 50px;
     margin-left: 100px;
     color:#dc4d3c;
-    letter-spacing: 8px;
-    
+   
     
 }
 
@@ -171,7 +170,7 @@ body, html{
 /*    font-size: 22px;*/
 /*    padding-bottom: 0;*/
     color:#293241;
-    background-color: #f3e2e2;
+    background-color: #f5ecec;
     font-weight: 100px;
     text-decoration: none;
     border-style:groove;
@@ -204,7 +203,7 @@ body, html{
 
     padding-top: 10px;
     padding-left: 10%;
-    font-family:didot;
+    font-family:futura;
     letter-spacing: 8px;
     font-size: 60px;
     font-weight: 600;
