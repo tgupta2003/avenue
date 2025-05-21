@@ -207,7 +207,45 @@ body, html{
   transition: 0.15s;
 }
 
+/* -------------- */
+/* MEDIA QUERIES */
 
+/* start with under 390px */
+@media only screen and (min-width: 390px) and (max-width: 406px){
+
+  .logo{
+    padding-top: 10px;
+    height: 10vh;
+  }
+
+
+  .text{
+    padding-top: 20px;
+    font-size: 60px;
+  }
+
+  .sub-heading{
+    font-size: 30px;
+    padding-right: 30px;
+  }
+
+  .main-text{
+    font-size: 50px;
+  }
+
+  .main-text2{
+    font-size: 30px;
+  }
+
+  .sub-text{
+    font-size: 30px;
+  }
+
+  .end-link1{
+    font-size: 30px;
+  }
+
+}
 
 
 

@@ -178,3 +178,33 @@ body, html{
 
 }
 
+
+/* start with under 390px */
+@media only screen and (min-width: 390px) and (max-width: 406px){
+
+  .logo{
+    padding-top: 10px;
+    height: 10vh;
+  }
+
+  .main-img{
+    padding-top: 15%;
+  }
+
+  .header-text{
+    font-size: 30px;
+  }
+
+  .starting-blurb{
+    font-size: 30px;
+  }
+
+  .signups{
+    font-size: 30px;
+  }
+
+
+
+}
+
+

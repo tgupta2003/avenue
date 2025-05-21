@@ -136,4 +136,37 @@ p{
 
 
 
+/* start with under 390px */
+@media only screen and (min-width: 390px) and (max-width: 406px){
+
+  .logo{
+    padding-top: 10px;
+    height: 10vh;
+  }
+
+  .main-img{
+    
+    width: 50vh;
+ 
+  }
+
+  p{
+    font-size: 25px;
+    padding-right: 10%;
+    padding-left: 20%;
+  }
+
+  .contact{
+    font-size: 25px;
+    padding-right: 10%;
+    padding-left: 20%;
+  }
+
+
+
+}
+
+
+
+
 
