@@ -135,9 +135,22 @@ body, html{
 
 }
 
+.img-wrapper{
+
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden; /* Contain the scaled image */
+  display: flex;
+}
+
 .vc-stats{
   margin-top: 100vh;
   width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  
+
   
 }
 
@@ -210,31 +223,76 @@ body, html{
 /* -------------- */
 /* MEDIA QUERIES */
 
-/* start with under 390px */
-@media only screen and (min-width: 390px) and (max-width: 406px){
-
+@media only screen and (max-width: 390px){
   .logo{
-    padding-top: 10px;
-    height: 10vh;
+    display: none;
+  }
+
+  .header_buttons{
+   margin-right: 0%;
   }
 
 
   .text{
     padding-top: 20px;
-    font-size: 60px;
+    font-size: 65px;
   }
 
   .sub-heading{
-    font-size: 30px;
-    padding-right: 30px;
+    font-size: 40px;
+    padding-right: 35px;
   }
 
+  
+
   .main-text{
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .main-text2{
+    font-size: 25px;
+  }
+
+  .sub-text{
     font-size: 30px;
+  }
+
+  .end-link1{
+    font-size: 30px;
+  }
+
+}
+
+/* start with under 390px */
+@media only screen and (min-width: 390px) and (max-width: 406px){
+
+  .logo{
+    display: none;
+  }
+
+  .header_buttons{
+   margin-right: 10%;
+  }
+
+
+  .text{
+    padding-top: 20px;
+    font-size: 65px;
+  }
+
+  .sub-heading{
+    font-size: 40px;
+    padding-right: 35px;
+  }
+
+  
+
+  .main-text{
+    font-size: 45px;
+  }
+
+  .main-text2{
+    font-size: 25px;
   }
 
   .sub-text{

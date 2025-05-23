@@ -105,6 +105,10 @@ body, html{
   width: 80vh;
 }
 
+.mobile-img{
+  display: none;
+}
+
 
 p{
    
@@ -137,17 +141,72 @@ p{
 
 
 /* start with under 390px */
-@media only screen and (min-width: 390px) and (max-width: 406px){
 
+@media only screen and (max-width: 390px){
   .logo{
-    padding-top: 10px;
-    height: 10vh;
+    display: none;
+  }
+
+  .header_buttons{
+   margin-right: 0%;
   }
 
   .main-img{
     
-    width: 50vh;
+    display: none;
+
  
+  }
+
+  .mobile-img{
+   
+    padding-top: 150px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  
+  }
+
+  p{
+    font-size: 25px;
+    padding-right: 10%;
+    padding-left: 20%;
+  }
+
+  .contact{
+    font-size: 25px;
+    padding-right: 10%;
+    padding-left: 20%;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 390px) and (max-width: 406px){
+
+  .logo{
+    display: none;
+  }
+
+  .header_buttons{
+   margin-right: 10%;
+  }
+
+  .main-img{
+    
+    display: none;
+
+ 
+  }
+
+  .mobile-img{
+   
+    padding-top: 150px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  
   }
 
   p{

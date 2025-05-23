@@ -157,6 +157,17 @@ body, html{
 
 }
 
+.ending-blurb{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%; 
+
+
+}
+
 .mentee, .mentor{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
@@ -174,17 +185,19 @@ body, html{
   font-size: 50px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
 
 }
 
 
 /* start with under 390px */
-@media only screen and (min-width: 390px) and (max-width: 406px){
-
+@media only screen and (max-width: 390px){
   .logo{
-    padding-top: 10px;
-    height: 10vh;
+    display: none;
+  }
+
+  .header_buttons{
+   margin-right: 0%;
   }
 
   .main-img{
@@ -202,6 +215,39 @@ body, html{
   .signups{
     font-size: 30px;
   }
+
+
+
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 406px){
+
+  .logo{
+    display: none;
+  }
+
+  .header_buttons{
+   margin-right: 10%;
+  }
+
+  .main-img{
+    padding-top: 15%;
+  }
+
+  .header-text{
+    font-size: 30px;
+  }
+
+  .starting-blurb{
+    font-size: 30px;
+  }
+
+  .signups{
+    font-size: 30px;
+  }
+
+  
 
 
 
