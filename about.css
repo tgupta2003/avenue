@@ -87,22 +87,28 @@ body, html{
   color: black; 
   transition: 0.15;
   font-family: outfit;
+  
 
 
 
 }
 
 .link:hover{
-  color: #ede0d4;
+  opacity: 0.8;
 }
 
 
 
 
 .main-img{
-  margin-left: 25%;
+  /* margin-left: 25%;
   padding-top: 150px;
-  width: 80vh;
+  width: 80vh; */
+  padding-top: 150px;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .mobile-img{
@@ -141,7 +147,6 @@ p{
 
 
 /* start with under 390px */
-
 @media only screen and (max-width: 390px){
   .logo{
     display: none;

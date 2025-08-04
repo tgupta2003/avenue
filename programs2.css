@@ -100,8 +100,13 @@ body, html{
 
 
 .main-img{
-  width: 100vw;
-  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+  /* width: 100vw;
+  overflow-x: hidden; */
 }
 
 
@@ -112,10 +117,6 @@ body, html{
   padding-left: 10%;
   font-family: futura;
 }
-
-
-
-
 
 
 .apply{
@@ -216,9 +217,6 @@ body, html{
     font-size: 30px;
   }
 
-
-
-
 }
 
 @media only screen and (min-width: 390px) and (max-width: 406px){
@@ -246,9 +244,6 @@ body, html{
   .signups{
     font-size: 30px;
   }
-
-  
-
 
 
 }
