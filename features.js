@@ -84,6 +84,25 @@ let mentorCollection = [
 ];
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const btn = document.getElementById("programs-btn");
+  const menu = document.getElementById("programs-menu");
+
+  btn.addEventListener("click", function (e) {
+    e.preventDefault(); // stops link from navigating right away
+    menu.classList.toggle("show");
+  });
+
+  // close dropdown if you click outside
+  document.addEventListener("click", function (e) {
+    if (!btn.contains(e.target) && !menu.contains(e.target)) {
+      menu.classList.remove("show");
+    }
+  });
+});
+
+
+
 
 //DEPENDING ON CATEGORY THE FOLLOWING APPEARS: 
 //loads JS 
@@ -259,6 +278,7 @@ function createMentorPage(incomingJSON){
 
 
 }
+
 
 
 

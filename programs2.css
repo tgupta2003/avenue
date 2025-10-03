@@ -44,6 +44,7 @@ body, html{
     border-right: #ede0d4;
   
   }
+
   
   .header_buttons{
      display: flex;
@@ -95,6 +96,50 @@ body, html{
   .link:hover{
     color: #dc4d3c;
   }
+
+
+
+  /* Dropdown container */
+.dropdown {
+  position: relative;
+  display: flex; 
+  align-items: center;
+}
+
+/* Hidden dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* below the Programs link */
+  left: 0;
+  background-color: #fdf8ef; /* match header background */
+  min-width: 180px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  border: 1px solid #ede0d4;
+  border-radius: 4px;
+  z-index: 999;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: outfit;
+  transition: 0.2s;
+}
+
+/* Hover effects */
+.dropdown-content a:hover {
+  background-color: #fcefe4;
+  color: #dc4d3c;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
 
