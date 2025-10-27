@@ -208,9 +208,9 @@ body, html{
 .main-text{
   margin-top: 25vh;
   font-family: futura;
-  font-size: 70px;
+  font-size: 50px;
   padding-left: 10%;
-  font-weight: 400;
+  font-weight: 300;
   
 }
 
@@ -261,6 +261,152 @@ body, html{
   opacity: 0.8;
   transition: 0.15s;
 }
+
+
+/* ----------------------------- */
+/* Past Programs & Events Section */
+.past-programs {
+  padding: 100px 10%;
+  background-color: #fdf8ef;
+  text-align: center;
+}
+
+.past-heading {
+  font-family: futura;
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.past-subtext {
+  font-family: 'Outfit', sans-serif;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 70px;
+}
+
+.program-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.program-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.008);
+  width: 360px;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.012);
+}
+
+.program-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.program-info {
+  padding: 25px;
+}
+
+.program-title {
+  font-family: futura;
+  font-size: 26px;
+  color: #dc4d3c;
+  margin-bottom: 10px;
+}
+
+.program-desc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* ----------------------------- */
+/* End Banner Gallery Section */
+.program-gallery {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.gallery-banner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex: 1;
+  filter: brightness(75%);
+  transition: transform 0.6s ease;
+}
+
+.gallery-banner img:hover {
+  transform: scale(1.05);
+  filter: brightness(85%);
+}
+
+/* Overlay text */
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.25); /* soft overlay */
+}
+
+.banner-text {
+  color: #fff;
+  font-family: futura;
+  font-size: 48px;
+  text-align: center;
+  max-width: 900px;
+  padding: 0 20px;
+  line-height: 1.3;
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  .program-gallery {
+    height: 40vh;
+  }
+
+  .banner-text {
+    font-size: 26px;
+    padding: 0 10%;
+  }
+
+  .gallery-banner {
+    flex-direction: column;
+  }
+
+  .gallery-banner img {
+    height: 40vh;
+    object-position: center;
+  }
+}
+
+
 
 /* -------------- */
 /* MEDIA QUERIES */
@@ -324,7 +470,7 @@ body, html{
   }
 
   .sub-heading{
-    font-size: 40px;
+    font-size: 30px;
     padding-right: 35px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }

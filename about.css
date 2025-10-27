@@ -140,6 +140,43 @@ body, html{
   display: block;
 }
 
+/* --- SOCIAL LINKS STYLING --- */
+.social-section {
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  color: #222;
+  margin-top: 40px;
+}
+
+.social-section h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.social-section p {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #444;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #b79a6b; /* gold-beige accent */
+  transform: scale(1.15);
+}
+
 
 
 
