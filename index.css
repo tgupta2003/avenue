@@ -332,6 +332,67 @@ body, html{
   line-height: 1.5;
 }
 
+/* Socials Section */
+.socials-section {
+  padding: 80px 6vw;
+  text-align: center;
+  
+}
+
+.socials-heading {
+  font-family: futura;
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.socials-subtext {
+  font-family: 'Outfit', sans-serif;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 70px;
+}
+
+.socials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.social-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s ease;
+}
+
+.social-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.social-card span {
+  font-weight: 600;
+  font-family: futura;
+  font-size: 2rem;
+  color: #dc4d3c;
+}
+
+.social-card:hover {
+  transform: translateY(-4px);
+}
+
+
+
+
+
 /* ----------------------------- */
 /* End Banner Gallery Section */
 .program-gallery {
