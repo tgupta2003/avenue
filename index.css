@@ -328,6 +328,11 @@ body, html{
   transform: translateY(-2px);
 }
 
+.join{
+  text-decoration: none;
+  color: #dc4d3c;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .event-container {
